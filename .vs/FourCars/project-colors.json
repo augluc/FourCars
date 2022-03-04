@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4e7d2c79-3e0e-4178-a1cf-27f9f69869b8": {
+      "ProjectGuid": "4e7d2c79-3e0e-4178-a1cf-27f9f69869b8",
+      "DisplayName": "FourCars",
+      "ColorIndex": 0
+    },
+    "85701d74-6fcb-4ccf-994b-e990d0cd5298": {
+      "ProjectGuid": "85701d74-6fcb-4ccf-994b-e990d0cd5298",
+      "DisplayName": "Exp3",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

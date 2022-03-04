@@ -1,0 +1,64 @@
+﻿@model IEnumerable<FourCars.Models.Veiculo>
+
+@{
+    ViewData["Title"] = "Lista de Veículos";
+}
+
+<h1>Lista de Veículos</h1>
+
+<form class="form-inline m-2 d-flex justify-content-center">
+    <input type="text" class="form-control m-2" name="modeloBusca" placeholder="Digite o modelo" />
+    <select class="form-control m-2" name="categoriaBusca" asp-items="@Html.GetEnumSelectList<Categoria>()">
+        <option>Categoria</option>
+    </select>
+    <input type="submit" class="rounded btn-sm btn-primary" value="Buscar" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Marca)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ano)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Valor)
+            </th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Categoria)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Marca)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modelo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ano)
+            </td>
+            <td>
+                R$ @Html.DisplayFor(modelItem => item.Valor),00
+            </td>
+            <td>
+                <a class="btn btn-sm btn-secondary" asp-action="Details" asp-route-id="@item.VeiculoId">Detalhes</a>
+                <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@item.VeiculoId">Editar</a>
+                <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.VeiculoId">Deletar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
