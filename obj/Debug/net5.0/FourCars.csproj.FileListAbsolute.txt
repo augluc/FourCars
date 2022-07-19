@@ -6,7 +6,6 @@ C:\Users\lassis\Documents\csharp\FourCars\bin\Debug\net5.0\FourCars.deps.json
 C:\Users\lassis\Documents\csharp\FourCars\bin\Debug\net5.0\FourCars.runtimeconfig.json
 C:\Users\lassis\Documents\csharp\FourCars\bin\Debug\net5.0\FourCars.runtimeconfig.dev.json
 C:\Users\lassis\Documents\csharp\FourCars\bin\Debug\net5.0\FourCars.dll
-C:\Users\lassis\Documents\csharp\FourCars\bin\Debug\net5.0\ref\FourCars.dll
 C:\Users\lassis\Documents\csharp\FourCars\bin\Debug\net5.0\FourCars.pdb
 C:\Users\lassis\Documents\csharp\FourCars\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Antiforgery.dll
 C:\Users\lassis\Documents\csharp\FourCars\bin\Debug\net5.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
@@ -441,3 +440,4 @@ C:\Users\lassis\Documents\csharp\FourCars\obj\Debug\net5.0\Razor\Views\Veiculo\D
 C:\Users\lassis\Documents\csharp\FourCars\obj\Debug\net5.0\Razor\Views\Veiculo\Details.cshtml.g.cs
 C:\Users\lassis\Documents\csharp\FourCars\obj\Debug\net5.0\Razor\Views\Veiculo\Edit.cshtml.g.cs
 C:\Users\lassis\Documents\csharp\FourCars\obj\Debug\net5.0\Razor\Views\Veiculo\Index.cshtml.g.cs
+C:\Users\lassis\Documents\csharp\FourCars\obj\Debug\net5.0\refint\FourCars.dll
